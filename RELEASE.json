@@ -1,0 +1,8 @@
+{
+  "component": "CULL",
+  "version": "0.1.0-alpha1",
+  "purpose": "STOS sovereign compiler bootstrap/contract baseline",
+  "production_ready": false,
+  "clang_replacement_authorized": false,
+  "status": "SOURCE_BASELINE_ONLY"
+}

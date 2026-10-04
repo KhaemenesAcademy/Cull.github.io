@@ -1,0 +1,3 @@
+#include "cull.h"
+const char *cull_status_name(cull_status s){switch(s){case CULL_OK:return "CULL_OK";case CULL_EINVAL:return "CULL_EINVAL";case CULL_EPARSE:return "CULL_EPARSE";case CULL_EUNSUPPORTED:return "CULL_EUNSUPPORTED";case CULL_EOVERFLOW:return "CULL_EOVERFLOW";case CULL_EBACKEND:return "CULL_EBACKEND";default:return "CULL_UNKNOWN";}}
+const char *cull_target_name(cull_target t){switch(t){case CULL_TARGET_X86_64_MACHO:return "x86_64-apple-macho";case CULL_TARGET_X86_64_ELF:return "x86_64-linux-elf";case CULL_TARGET_AARCH64_MACHO:return "aarch64-apple-macho";case CULL_TARGET_AARCH64_ELF:return "aarch64-linux-elf";case CULL_TARGET_X86_64_PE:return "x86_64-windows-pe";case CULL_TARGET_AARCH64_PE:return "aarch64-windows-pe";default:return "none";}}

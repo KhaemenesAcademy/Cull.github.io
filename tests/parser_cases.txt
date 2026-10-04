@@ -1,0 +1,6 @@
+PASS|int main(void){return 0;}
+PASS| int main ( void ) { return 33 ; }
+PASS|int main(void){return -7;}
+FAIL|int main(){return 0;}
+FAIL|long main(void){return 0;}
+FAIL|int main(void){return 0;} trailing
